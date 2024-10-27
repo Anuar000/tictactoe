@@ -90,6 +90,10 @@ def utility(board):
         return 0
 
 def ai_turn(board, length, current_pl):
+    """
+    Implements the Minimax algorithm to find the best move in the game.
+    """
+
     if current_pl == X:
         best = [-1, -1, -infinity]
     else:
